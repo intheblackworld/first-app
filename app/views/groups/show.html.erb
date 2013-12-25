@@ -1,1 +1,10 @@
-<h1>Hello World!</h1>
+<div class="col-md">
+
+	<div class="group">
+ 		<%= link_to("Edit", edit_group_path(@group) , :class => "btn btn-mini btn-primary pull-right" ) %>
+	</div>
+
+<h2> <%= @group.title %> </h2>
+<p> <%= @group.description %> </p>
+
+</div>
